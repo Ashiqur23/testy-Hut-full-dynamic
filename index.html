@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header class="header border">
+        <nav class="navbar navbar-expand-lg  py-3">
+            <div class="container">
+                <a class="navbar-brand" href="index.html"><img src="./img/Tasty_HUT.png" alt=""></a>
+                <button class="btn btn-warning">Sign in</button>
+            </div>
+          </nav>
+            <section class="con">
+                <main class="">
+                    <div class="header-bg">
+                        <div class="header-container d-flex justify-content-center
+                        align-items-center">
+                            <div class="header-content text-center">
+                                <div class="text-white">
+                                    <h1>Taste Our Delicious Best Foods</h1>
+                                    <p class="w-75 mx-auto">There are many variations of passages of
+                                        Lorem Ipsum available, but the majority
+                                        have suffered alteration in some form,
+                                        by injected humou.
+                                    </p>
+                                </div>
+                                <div class="input-box d-flex justify-content-center
+                                align-items-center">
+                                    <input type="text" id="input-field" class="border-0"
+                                    placeholder="Search any food">
+                                    <button id="Search-btn" onclick="loadData()" class="btn btn-warning header-btn">Search</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </main>
+            </section>
+      </header>
+
+<!-- body -->
+      <div class="content border p-5">
+        <div class="container">
+            <div id="card-container" class="row g-3">
+               
+            </div>
+            <div class="text-center">
+                <button id="seeAll" class="btn btn-warning d-none">See All</button>
+            </div>
+        </div>
+      </div>
+<!-- modal -->
+
+<!-- data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" -->
+<!-- Vertically centered modal -->
+
+
+    <!-- Button trigger modal -->
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div id="modal-body" class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- modal end  -->
+
+      <!-- footer -->
+        <footer class="container">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 justify-content-center align-items-center">
+                <div class="col">
+                    <div>
+                        <h3>Section</h3>
+                        <p>Home</p>
+                        <p>Features</p>
+                        <p>Pricing</p>
+                        <p>FAQs</p>
+                        <p>About</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div>
+                        <h3>Section</h3>
+                        <p>UIUX Design</p>
+                        <p>Product Design</p>
+                        <p>Back End Developer</p>
+                        <p>Front End Developer</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div>
+                        <h3>Resource</h3>
+                        <p>FAQ</p>
+                        <p>Support</p>
+                        <p>Privacy Policy</p>
+                        <p>Terms of Service</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div>
+                        <h3>Subscribe to our newsletter</h3>
+                        <p>There are many variations of passages of available,
+                            but the majority have suffered</p>
+                        <div class="input-box d-flex justify-content-center
+                        align-items-center">
+                            <input type="text" class="ps-2 bg-body border"
+                            placeholder="Email address">
+                            <button class="btn btn-warning header-btn">Search</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    <!-- js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+    <script src="app.js"></script>
+    
+</body>
+</html>
